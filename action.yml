@@ -1,0 +1,6 @@
+name: 'Check style pr review'
+description: 'Action to run the checkstyle-pr-review tool in a github workflow' 
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+
