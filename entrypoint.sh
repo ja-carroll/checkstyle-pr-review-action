@@ -17,4 +17,4 @@ if [[! -f "$FILE_PATH" ]]; then
   exit 1
 fi
 
-exec checkstyle-pr-review
+exec checkstyle-pr-review -xmlPath ${FILE_PATH}
